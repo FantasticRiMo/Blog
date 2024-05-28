@@ -1,0 +1,13 @@
+  <div id="RecentComments" class="dsq-widget">
+    <script type="text/javascript">
+      //<![CDATA[
+      document.write("<scr" + "ipt type=\"text/javascript\" src=\"https://httpfantasticrimoblogspotcom.disqus.com/recent_comments_widget.js?num_items=21&hide_mods=1&hide_avatars=0&avatar_size=32&excerpt_length=80\"></scr" + "ipt>");
+      //]]>
+    </script>
+    <script type="text/javascript">
+      //<![CDATA[
+      $("#RecentComments a").filter(function() {
+        return this.hostname && this.hostname !== location.hostname;
+      }).attr('rel', 'nofollow').attr('target', '_blank');
+      //]]>
+    </script>
